@@ -1,0 +1,61 @@
+.contact {
+  background: var(--red);
+  color: white;
+}
+.contact__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+}
+.contact .eyebrow {
+  color: white;
+}
+.contact h2 {
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+}
+.contact__inner > div > p:last-child {
+  margin-top: 22px;
+}
+.contact__links a {
+  text-decoration: none;
+}
+.contact__phone,
+.contact__email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid #ffffff70;
+  padding: 23px 0;
+}
+.contact__phone {
+  font-size: clamp(1.5rem, 2.7vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+.contact__email {
+  font-size: clamp(1rem, 1.7vw, 1.35rem);
+  overflow-wrap: anywhere;
+}
+.contact__social {
+  font-size: 0.875rem;
+  margin-top: 23px;
+}
+.contact__social > span {
+  display: inline-block;
+  font-size: 0.75rem;
+  margin-left: 10px;
+  border: 1px solid #ffffff70;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.contact :focus-visible {
+  outline-color: white;
+}
+@media (max-width: 850px) {
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,126 @@
+.gallery__heading {
+  display: flex;
+  gap: 28px;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery__heading > a {
+  flex-shrink: 0;
+}
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.gallery__card {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
+}
+.gallery__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px #2020200a;
+}
+.gallery__photo {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff3eb;
+}
+.gallery__photo--fresas {
+  background: #fff0f1;
+}
+.gallery__photo--frappe {
+  background: #f1ece8;
+}
+.gallery__photo--special {
+  background: #f3f4e9;
+}
+.gallery__photo--bagel {
+  background: #f6f1e9;
+}
+.gallery__photo--shaved-ice {
+  background: #fff0ef;
+}
+.gallery__photo .product-image {
+  width: 112px;
+  mix-blend-mode: multiply;
+}
+.gallery__photo--fresas .product-image {
+  width: 125px;
+}
+.gallery__photo--frappe .product-image {
+  width: 116px;
+}
+.gallery__photo--special .product-image {
+  width: 158px;
+}
+.gallery__photo--bagel .product-image {
+  width: 260px;
+}
+.gallery__photo--shaved-ice .product-image {
+  width: 100px;
+}
+.gallery__body {
+  padding: 24px;
+}
+.gallery__category {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: var(--red-dark);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+.gallery__description {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 12px;
+  min-height: 50px;
+}
+.gallery__price {
+  margin-top: 18px;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.gallery__price > span {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+.gallery__footnote {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.875rem;
+  margin-top: 30px;
+}
+@media (max-width: 950px) {
+  .gallery__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery__heading {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 0;
+  }
+  .gallery__heading .section__heading {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .gallery__grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .gallery__photo {
+    height: 240px;
+  }
+  .gallery__description {
+    min-height: 0;
+  }
+}

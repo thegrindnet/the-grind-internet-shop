@@ -1,0 +1,17 @@
+.app {
+  overflow: clip;
+}
+.app__skip {
+  position: fixed;
+  z-index: 100;
+  left: 16px;
+  top: -100px;
+  padding: 14px 22px;
+  background: white;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+}
+.app__skip:focus {
+  top: 12px;
+}

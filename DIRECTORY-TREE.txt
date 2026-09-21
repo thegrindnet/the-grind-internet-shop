@@ -1,0 +1,80 @@
+the-grind-internet-shop/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── dist/
+│   ├── assets/
+│   │   ├── index-D__9Ee7W.css
+│   │   ├── index-ZQKLYvnz.js
+│   │   ├── the-grind-menu-back-zzcunIF3.webp
+│   │   └── the-grind-menu-front-BZawzsCg.webp
+│   ├── favicon.png
+│   └── index.html
+├── public/
+│   └── favicon.png
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   │   └── arrow-up-right.svg
+│   │   └── images/
+│   │       ├── the-grind-menu-back.webp
+│   │       └── the-grind-menu-front.webp
+│   ├── components/
+│   │   ├── About/
+│   │   │   ├── About.css
+│   │   │   └── About.jsx
+│   │   ├── App/
+│   │   │   ├── App.css
+│   │   │   └── App.jsx
+│   │   ├── Contact/
+│   │   │   ├── Contact.css
+│   │   │   └── Contact.jsx
+│   │   ├── FAQ/
+│   │   │   ├── FAQ.css
+│   │   │   └── FAQ.jsx
+│   │   ├── Footer/
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.jsx
+│   │   ├── Gallery/
+│   │   │   ├── Gallery.css
+│   │   │   └── Gallery.jsx
+│   │   ├── Header/
+│   │   │   ├── Header.css
+│   │   │   └── Header.jsx
+│   │   ├── Hero/
+│   │   │   ├── Hero.css
+│   │   │   └── Hero.jsx
+│   │   ├── Menu/
+│   │   │   ├── Menu.css
+│   │   │   └── Menu.jsx
+│   │   ├── Navigation/
+│   │   │   ├── Navigation.css
+│   │   │   └── Navigation.jsx
+│   │   ├── ProductImage/
+│   │   │   ├── ProductImage.css
+│   │   │   └── ProductImage.jsx
+│   │   ├── Services/
+│   │   │   ├── Services.css
+│   │   │   └── Services.jsx
+│   │   ├── Testimonials/
+│   │   │   ├── Testimonials.css
+│   │   │   └── Testimonials.jsx
+│   │   └── Visit/
+│   │       ├── Visit.css
+│   │       └── Visit.jsx
+│   ├── utils/
+│   │   └── constants.js
+│   ├── vendor/
+│   │   └── normalize.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── .nvmrc
+├── DIRECTORY-TREE.txt
+├── README.md
+├── VERIFICATION.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js

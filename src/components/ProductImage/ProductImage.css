@@ -1,0 +1,81 @@
+/* CSS viewports show individual product photos from the supplied menu sheets. */
+.product-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  isolation: isolate;
+}
+.product-image img {
+  position: absolute;
+  max-width: none;
+  height: auto;
+}
+.product-image--chamoyada {
+  aspect-ratio: 150 / 306;
+}
+.product-image--chamoyada img {
+  width: 916.666667%;
+  left: -353.333333%;
+  top: -197.385621%;
+}
+.product-image--fresas {
+  aspect-ratio: 176 / 337;
+}
+.product-image--fresas img {
+  width: 781.25%;
+  left: -269.318182%;
+  top: -55.192878%;
+}
+.product-image--frappe {
+  aspect-ratio: 176 / 336;
+}
+.product-image--frappe img {
+  width: 781.25%;
+  left: -663.636364%;
+  top: -59.22619%;
+}
+.product-image--special {
+  aspect-ratio: 193 / 265;
+}
+.product-image--special img {
+  width: 712.435233%;
+  left: -370.984456%;
+  top: -200%;
+}
+.product-image--bagel {
+  aspect-ratio: 303 / 148;
+}
+.product-image--bagel img {
+  width: 453.79538%;
+  left: -125.082508%;
+  top: -731.081081%;
+}
+.product-image--shaved-ice {
+  aspect-ratio: 170 / 397;
+}
+.product-image--shaved-ice img {
+  width: 808.823529%;
+  left: -552.941176%;
+  top: -285.390428%;
+}
+.product-image--milkshake {
+  aspect-ratio: 197 / 357;
+}
+.product-image--milkshake img {
+  width: 697.969543%;
+  left: -249.746193%;
+  top: -224.089636%;
+}
+.product-image--papas {
+  aspect-ratio: 119 / 272;
+}
+.product-image--papas img {
+  width: 1155.462185%;
+  left: -483.193277%;
+  top: -454.779412%;
+}
+
+.product-image--special { aspect-ratio: 173 / 265; }
+.product-image--special img { width: 794.797688%; left: -425.433526%; top: -200%; }
+.product-image--frappe { aspect-ratio: 161 / 336; }
+.product-image--frappe img { width: 854.037267%; left: -734.782609%; top: -59.226190%; }
