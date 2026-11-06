@@ -1,5 +1,6 @@
 import menuFront from "../assets/images/the-grind-menu-front.webp";
 import menuBack from "../assets/images/the-grind-menu-back.webp";
+import chamoyadaImage from "../assets/images/chamoyada.png";
 
 export const business = {
   name: "The Grind Internet Shop",
@@ -29,9 +30,10 @@ export const hours = [
   ["Friday", "11:00 am – 6:00 pm"],
   ["Saturday & Sunday", "Closed"],
 ];
+
 export const photos = {
   chamoyada: {
-    source: menuBack,
+    source: chamoyadaImage,
     alt: "Mango Chamoyada with a bright red chamoy swirl",
   },
   fresas: { source: menuFront, alt: "Fresas Con Crema in a tall cup" },

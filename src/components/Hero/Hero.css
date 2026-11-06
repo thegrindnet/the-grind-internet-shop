@@ -9,6 +9,15 @@
   align-items: center;
   padding-bottom: 64px;
 }
+
+.hero__image {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  object-position: 90%;
+  border-radius: 25px;
+}
+
 .hero h1 {
   font-size: clamp(3.8rem, 6.8vw, 6.2rem);
   line-height: 0.99;
@@ -36,12 +45,14 @@
   font-size: 0.8rem;
   margin-top: 29px;
 }
-.hero__location > span {
-  padding: 0 6px;
+.hero__location > a {
+  text-decoration: none;
 }
+
 .hero__visual {
   position: relative;
   height: 525px;
+  width: 80%;
 }
 .hero__circle {
   position: absolute;

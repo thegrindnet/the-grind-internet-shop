@@ -16,9 +16,7 @@
   border: 1px solid var(--line);
   border-radius: 18px;
   overflow: hidden;
-  transition:
-    box-shadow 0.2s,
-    transform 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
 }
 .gallery__card:hover {
   transform: translateY(-4px);
@@ -30,6 +28,7 @@
   align-items: center;
   justify-content: center;
   background: #fff3eb;
+  object-fit: contain;
 }
 .gallery__photo--fresas {
   background: #fff0f1;

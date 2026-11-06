@@ -7,11 +7,12 @@
 }
 .product-image img {
   position: absolute;
+  object-fit: contain;
   max-width: none;
   height: auto;
 }
 .product-image--chamoyada {
-  aspect-ratio: 150 / 306;
+  /* aspect-ratio: 150 / 306; */
 }
 .product-image--chamoyada img {
   width: 916.666667%;
@@ -75,7 +76,19 @@
   top: -454.779412%;
 }
 
-.product-image--special { aspect-ratio: 173 / 265; }
-.product-image--special img { width: 794.797688%; left: -425.433526%; top: -200%; }
-.product-image--frappe { aspect-ratio: 161 / 336; }
-.product-image--frappe img { width: 854.037267%; left: -734.782609%; top: -59.226190%; }
+.product-image--special {
+  aspect-ratio: 173 / 265;
+}
+.product-image--special img {
+  width: 794.797688%;
+  left: -425.433526%;
+  top: -200%;
+}
+.product-image--frappe {
+  aspect-ratio: 161 / 336;
+}
+.product-image--frappe img {
+  width: 854.037267%;
+  left: -734.782609%;
+  top: -59.22619%;
+}
