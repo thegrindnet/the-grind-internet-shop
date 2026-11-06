@@ -1,5 +1,6 @@
 import Navigation from "../Navigation/Navigation.jsx";
 import { business } from "../../utils/constants.js";
+import logo from "../../assets/images/logo.png";
 import "./Header.css";
 
 function Header() {
@@ -15,12 +16,17 @@ function Header() {
           href="#home"
           aria-label="The Grind Internet Shop, home"
         >
-          <span className="header__wordmark">
-            the grind<span>.</span>
-          </span>
-          <span className="header__subtitle">
-            INTERNET SHOP · COFFEE & TREATS
-          </span>
+          <img
+            src={logo}
+            className="header__logo"
+            alt="The grind internet shop logo"
+          />
+          <div className="header__logo-block">
+            <span className="header__wordmark">THE GRIND INTERNET SHOP</span>
+            <span className="header__subtitle">
+              COFFEE & TREATS <span>.</span> PRINTS <span>.</span> MARKETING
+            </span>
+          </div>
         </a>
         <Navigation />
       </div>
