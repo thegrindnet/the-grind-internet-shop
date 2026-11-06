@@ -47,7 +47,9 @@ function Navigation() {
       </button>
       <div
         id="navigation-links"
-        className={`navigation__links${isOpen ? " navigation__links--open" : ""}`}
+        className={`navigation__links${
+          isOpen ? " navigation__links--open" : ""
+        }`}
       >
         {navLinks.map((link) => (
           <a key={link.href} href={link.href} onClick={() => setIsOpen(false)}>
@@ -55,7 +57,7 @@ function Navigation() {
           </a>
         ))}
         <a className="button navigation__call" href={business.phoneHref}>
-          Call the shop <span aria-hidden="true">↗</span>
+          Call the shop
         </a>
       </div>
     </nav>
